@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5, y: -5}
-  m_SizeDelta: {x: 114.9058, y: 468.446}
+  m_AnchoredPosition: {x: 0, y: -360}
+  m_SizeDelta: {x: 138.68, y: 1202.8892}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &54787910
 MonoBehaviour:
@@ -398,7 +398,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &154284526
 MonoBehaviour:
@@ -451,6 +451,7 @@ GameObject:
   - component: {fileID: 449150058}
   - component: {fileID: 449150057}
   - component: {fileID: 449150056}
+  - component: {fileID: 449150061}
   m_Layer: 5
   m_Name: Button_Violeta (1)
   m_TagString: Untagged
@@ -476,7 +477,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &449150056
 MonoBehaviour:
@@ -491,8 +492,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 0}
-  shoeImage: {fileID: 0}
-  mySprite: {fileID: 0}
+  shoeImage: {fileID: 1663396300}
+  mySprite: {fileID: 21300000, guid: 580114c2564b251449b1c7fca38c4aeb, type: 3}
   buttonControl: {fileID: 0}
   ButtonClicked:
     m_PersistentCalls:
@@ -593,6 +594,185 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449150054}
   m_CullTransparentMesh: 1
+--- !u!114 &449150061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449150054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a851128d30309940975b93c7017b000, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 449150058}
+  audioSource: {fileID: 497001717}
+  hoverClip: {fileID: 0}
+  selectClip: {fileID: 8300000, guid: d923860589a0748e981a2145fbc32489, type: 3}
+  startTextColor: {r: 0, g: 0, b: 0, a: 0}
+  startImageColor: {r: 1, g: 1, b: 1, a: 1}
+  selectImageColor: {r: 0, g: 0, b: 0, a: 0}
+  textHoverColor: {r: 0, g: 0, b: 0, a: 0}
+  buttonHoverColor: {r: 0.42352942, g: 0.47843137, b: 0.5372549, a: 1}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &497001716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 497001718}
+  - component: {fileID: 497001717}
+  m_Layer: 0
+  m_Name: InteractionSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &497001717
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497001716}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d923860589a0748e981a2145fbc32489, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &497001718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497001716}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1393059761}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &626614508 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6746350738501478586, guid: 04230e6fd9e037e47b09f0a3855deb86, type: 3}
@@ -722,6 +902,7 @@ GameObject:
   - component: {fileID: 674803451}
   - component: {fileID: 674803450}
   - component: {fileID: 674803449}
+  - component: {fileID: 674803454}
   m_Layer: 5
   m_Name: Button_Cipela (5)
   m_TagString: Untagged
@@ -747,7 +928,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &674803449
 MonoBehaviour:
@@ -762,8 +943,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 0}
-  shoeImage: {fileID: 0}
-  mySprite: {fileID: 0}
+  shoeImage: {fileID: 947021347}
+  mySprite: {fileID: 21300000, guid: 1db16e80a32849e4ba809c08de670eed, type: 3}
   buttonControl: {fileID: 0}
   ButtonClicked:
     m_PersistentCalls:
@@ -864,6 +1045,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674803447}
   m_CullTransparentMesh: 1
+--- !u!114 &674803454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674803447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a851128d30309940975b93c7017b000, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 674803451}
+  audioSource: {fileID: 497001717}
+  hoverClip: {fileID: 0}
+  selectClip: {fileID: 8300000, guid: d923860589a0748e981a2145fbc32489, type: 3}
+  startTextColor: {r: 0, g: 0, b: 0, a: 0}
+  startImageColor: {r: 1, g: 1, b: 1, a: 1}
+  selectImageColor: {r: 0, g: 0, b: 0, a: 0}
+  textHoverColor: {r: 0, g: 0, b: 0, a: 0}
+  buttonHoverColor: {r: 0.42352942, g: 0.47843137, b: 0.5372549, a: 1}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &702809274
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,7 +1132,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &702809276
 MonoBehaviour:
@@ -952,6 +1185,7 @@ GameObject:
   - component: {fileID: 719118042}
   - component: {fileID: 719118041}
   - component: {fileID: 719118040}
+  - component: {fileID: 719118045}
   m_Layer: 5
   m_Name: Button_Vans(2)
   m_TagString: Untagged
@@ -977,7 +1211,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &719118040
 MonoBehaviour:
@@ -992,8 +1226,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 0}
-  shoeImage: {fileID: 0}
-  mySprite: {fileID: 0}
+  shoeImage: {fileID: 1521646317}
+  mySprite: {fileID: 21300000, guid: 1f86c4cc179ab9b44afce3e7ea015580, type: 3}
   buttonControl: {fileID: 0}
   ButtonClicked:
     m_PersistentCalls:
@@ -1094,6 +1328,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 719118038}
   m_CullTransparentMesh: 1
+--- !u!114 &719118045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719118038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a851128d30309940975b93c7017b000, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 719118042}
+  audioSource: {fileID: 497001717}
+  hoverClip: {fileID: 0}
+  selectClip: {fileID: 8300000, guid: d923860589a0748e981a2145fbc32489, type: 3}
+  startTextColor: {r: 0, g: 0, b: 0, a: 0}
+  startImageColor: {r: 1, g: 1, b: 1, a: 1}
+  selectImageColor: {r: 0, g: 0, b: 0, a: 0}
+  textHoverColor: {r: 0, g: 0, b: 0, a: 0}
+  buttonHoverColor: {r: 0.42352942, g: 0.47843137, b: 0.5372549, a: 1}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &771817908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1129,10 +1415,10 @@ RectTransform:
   m_Father: {fileID: 1607871993}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.80729085, y: 0.5}
+  m_AnchorMin: {x: 0.6712778, y: 0.5}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00024414062, y: -124}
-  m_SizeDelta: {x: -0.00048828, y: 248}
+  m_AnchoredPosition: {x: -71.97974, y: 68}
+  m_SizeDelta: {x: -98.00049, y: 248}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &771817910
 MonoBehaviour:
@@ -1177,7 +1463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.97647065, g: 0.098039225, b: 0.098039225, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1202,35 +1488,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 771817908}
   m_CullTransparentMesh: 1
---- !u!21 &877579666
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'downloadMaterial
-
-    22026'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4573e6ff5d3249daa9468eae9fde79b8, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &947021345
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,7 +1523,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &947021347
 MonoBehaviour:
@@ -1306,6 +1563,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947021345}
   m_CullTransparentMesh: 1
+--- !u!1 &949143737 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2666666619990274805, guid: 36797fdc9e58e124f85517e08d5cf89f, type: 3}
+  m_PrefabInstance: {fileID: 1764155434890703280}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1020607466 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2118290254243164706, guid: 33ac1110ac4fb2f4f8cad7d9983e081b, type: 3}
@@ -1338,15 +1600,15 @@ RectTransform:
   m_GameObject: {fileID: 1021542423}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.89639235, y: 0.9991, z: 0.9991}
   m_Children: []
   m_Father: {fileID: 1561012753}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -2.9, y: -190.82}
-  m_SizeDelta: {x: 7.5145, y: -381.64}
+  m_AnchoredPosition: {x: -3, y: -366}
+  m_SizeDelta: {x: -0.00000023841858, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1021542425
 MonoBehaviour:
@@ -1434,7 +1696,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 877579666}
+  - {fileID: 2095769485}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1563,7 +1825,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 234.223}
+  m_AnchoredPosition: {x: 0, y: 601.4446}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1027239586
@@ -1657,6 +1919,7 @@ GameObject:
   - component: {fileID: 1139586057}
   - component: {fileID: 1139586056}
   - component: {fileID: 1139586055}
+  - component: {fileID: 1139586060}
   m_Layer: 5
   m_Name: Button_Nike (4)
   m_TagString: Untagged
@@ -1682,7 +1945,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1139586055
 MonoBehaviour:
@@ -1697,8 +1960,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 0}
-  shoeImage: {fileID: 0}
-  mySprite: {fileID: 0}
+  shoeImage: {fileID: 1273955170}
+  mySprite: {fileID: 21300000, guid: 91d9cddd38263a64ea89c5257e9a16ca, type: 3}
   buttonControl: {fileID: 0}
   ButtonClicked:
     m_PersistentCalls:
@@ -1799,6 +2062,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1139586053}
   m_CullTransparentMesh: 1
+--- !u!114 &1139586060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139586053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a851128d30309940975b93c7017b000, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1139586057}
+  audioSource: {fileID: 497001717}
+  hoverClip: {fileID: 0}
+  selectClip: {fileID: 8300000, guid: d923860589a0748e981a2145fbc32489, type: 3}
+  startTextColor: {r: 0, g: 0, b: 0, a: 0}
+  startImageColor: {r: 1, g: 1, b: 1, a: 1}
+  selectImageColor: {r: 0, g: 0, b: 0, a: 0}
+  textHoverColor: {r: 0, g: 0, b: 0, a: 0}
+  buttonHoverColor: {r: 0.42352942, g: 0.47843137, b: 0.5372549, a: 1}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1181722392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1837,7 +2152,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1181722394
 MonoBehaviour:
@@ -1861,9 +2176,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
+    m_PressedColor: {r: 0.9098039, g: 0.9254902, b: 0.94509804, a: 1}
+    m_SelectedColor: {r: 1, g: 0, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1887,6 +2202,30 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: ShoePicker, Assembly-CSharp
         m_MethodName: ShowShoe
         m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1393059760}
+        m_TargetAssemblyTypeName: Soundmanager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: d923860589a0748e981a2145fbc32489, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1181722397}
+        m_TargetAssemblyTypeName: UIAnimations, Assembly-CSharp
+        m_MethodName: Selected
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1942,18 +2281,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1181722392}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06503c4909c41e64e952fa5a7cfae563, type: 3}
+  m_Script: {fileID: 11500000, guid: c0921d3a524e4634c9ff64fb1c364657, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myText: {fileID: 0}
-  shoeImage: {fileID: 154284526}
-  mySprite: {fileID: 21300000, guid: 400fefe6edb24f74c80ed71d6b16630e, type: 3}
-  buttonControl: {fileID: 0}
-  ButtonClicked:
-    m_PersistentCalls:
-      m_Calls: []
-  shoes: []
-  value: 0
+  audioSource: {fileID: 0}
+  hoverClip: {fileID: 0}
+  selectClip: {fileID: 0}
+  startTextColor: {r: 0.9960785, g: 0.9960785, b: 0.9960785, a: 1}
+  startImageColor: {r: 0.9960785, g: 0.9960785, b: 0.9960785, a: 1}
+  selectImageColor: {r: 1, g: 0.10744576, b: 0, a: 1}
+  textHoverColor: {r: 0.9568628, g: 0.9568628, b: 0.9568628, a: 1}
+  buttonHoverColor: {r: 0.9568628, g: 0.9568628, b: 0.9568628, a: 1}
 --- !u!1 &1256027375 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8821183922557079696, guid: 3d0865475772074438e48d12b89afa73, type: 3}
@@ -1976,7 +2314,7 @@ MonoBehaviour:
   - {fileID: 2091642361}
   - {fileID: 2112714806}
   - {fileID: 1725489646}
-  - {fileID: 2112714806}
+  - {fileID: 949143737}
   - {fileID: 1020607466}
 --- !u!1 &1273955168
 GameObject:
@@ -2013,7 +2351,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1273955170
 MonoBehaviour:
@@ -2053,6 +2391,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1273955168}
   m_CullTransparentMesh: 1
+--- !u!1 &1393059759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1393059761}
+  - component: {fileID: 1393059760}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1393059760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393059759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3430cc74320586c40bda8fb2bd04c6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionAudioSource: {fileID: 497001717}
+  ambientSound: {fileID: 0}
+--- !u!4 &1393059761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393059759}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -359.47787, y: 785.9151, z: -214.49872}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 497001718}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1457049780
 GameObject:
   m_ObjectHideFlags: 0
@@ -2066,6 +2450,7 @@ GameObject:
   - component: {fileID: 1457049784}
   - component: {fileID: 1457049783}
   - component: {fileID: 1457049782}
+  - component: {fileID: 1457049787}
   m_Layer: 5
   m_Name: Button_Reebook(3)
   m_TagString: Untagged
@@ -2091,7 +2476,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1457049782
 MonoBehaviour:
@@ -2106,8 +2491,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 0}
-  shoeImage: {fileID: 0}
-  mySprite: {fileID: 0}
+  shoeImage: {fileID: 702809276}
+  mySprite: {fileID: 21300000, guid: c79cbf113719b3046b874e9780cf616e, type: 3}
   buttonControl: {fileID: 0}
   ButtonClicked:
     m_PersistentCalls:
@@ -2208,6 +2593,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1457049780}
   m_CullTransparentMesh: 1
+--- !u!114 &1457049787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457049780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a851128d30309940975b93c7017b000, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1457049784}
+  audioSource: {fileID: 497001717}
+  hoverClip: {fileID: 0}
+  selectClip: {fileID: 8300000, guid: d923860589a0748e981a2145fbc32489, type: 3}
+  startTextColor: {r: 0, g: 0, b: 0, a: 0}
+  startImageColor: {r: 1, g: 1, b: 1, a: 1}
+  selectImageColor: {r: 0, g: 0, b: 0, a: 0}
+  textHoverColor: {r: 0, g: 0, b: 0, a: 0}
+  buttonHoverColor: {r: 0.42352942, g: 0.47843137, b: 0.5372549, a: 1}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1521646315
 GameObject:
   m_ObjectHideFlags: 0
@@ -2243,7 +2680,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1521646317
 MonoBehaviour:
@@ -2316,7 +2753,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 3, y: 0}
   m_SizeDelta: {x: 30, y: 494}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1569827891
@@ -2453,8 +2890,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 85, y: 0}
-  m_SizeDelta: {x: 30, y: 494}
+  m_AnchoredPosition: {x: 142, y: -369}
+  m_SizeDelta: {x: 30, y: 1227}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1654443504
 MonoBehaviour:
@@ -2469,7 +2906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 2
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -2499,8 +2936,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1021542425}
   m_HandleRect: {fileID: 1021542424}
   m_Direction: 0
-  m_Value: 0.9999999
-  m_Size: 0.7495136
+  m_Value: 1
+  m_Size: 0.98195034
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2578,7 +3015,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1663396300
 MonoBehaviour:
@@ -2881,6 +3318,35 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4493464239925452921, guid: 993d6444009d58d4f86b23ac37ac13f4, type: 3}
   m_PrefabInstance: {fileID: 5182107925252620811}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &2095769485
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'downloadMaterial
+
+    21496'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4573e6ff5d3249daa9468eae9fde79b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &2112714806 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8375630779646348571, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
@@ -2898,77 +3364,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1910677752}
     m_Modifications:
-    - target: {fileID: 3298061912619707758, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
-      propertyPath: m_LocalScale.x
-      value: -0.05584286
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298061912619707758, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.055842854
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298061912619707758, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.055842854
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298061912619707758, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.03700006
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298061912619707758, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.027
-      objectReference: {fileID: 0}
     - target: {fileID: 8375630779646348571, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
       propertyPath: m_Name
       value: Vans_Shoe_SF
-      objectReference: {fileID: 0}
-    - target: {fileID: 8577056352723756793, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.055842854
-      objectReference: {fileID: 0}
-    - target: {fileID: 8577056352723756793, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.055842854
-      objectReference: {fileID: 0}
-    - target: {fileID: 8577056352723756793, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.055842854
-      objectReference: {fileID: 0}
-    - target: {fileID: 8577056352723756793, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.037
-      objectReference: {fileID: 0}
-    - target: {fileID: 8577056352723756793, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.027000003
       objectReference: {fileID: 0}
     - target: {fileID: 9185064493197449121, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9185064493197449121, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185064493197449121, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185064493197449121, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185064493197449121, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.0087
       objectReference: {fileID: 0}
     - target: {fileID: 9185064493197449121, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.0071
       objectReference: {fileID: 0}
     - target: {fileID: 9185064493197449121, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.0229
       objectReference: {fileID: 0}
     - target: {fileID: 9185064493197449121, guid: 39f9b08f912f875489be3fbd6ee844c2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3083,18 +3497,6 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6863996966011905639, guid: 5a445d1e63b6fad41aa6451855c0e389, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6863996966011905639, guid: 5a445d1e63b6fad41aa6451855c0e389, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6863996966011905639, guid: 5a445d1e63b6fad41aa6451855c0e389, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6863996966011905639, guid: 5a445d1e63b6fad41aa6451855c0e389, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -3143,18 +3545,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1910677752}
     m_Modifications:
-    - target: {fileID: 858976124812910973, guid: 993d6444009d58d4f86b23ac37ac13f4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.007
-      objectReference: {fileID: 0}
-    - target: {fileID: 858976124812910973, guid: 993d6444009d58d4f86b23ac37ac13f4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.0047
-      objectReference: {fileID: 0}
-    - target: {fileID: 858976124812910973, guid: 993d6444009d58d4f86b23ac37ac13f4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.002
-      objectReference: {fileID: 0}
     - target: {fileID: 3823605869507852995, guid: 993d6444009d58d4f86b23ac37ac13f4, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3165,7 +3555,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3823605869507852995, guid: 993d6444009d58d4f86b23ac37ac13f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.0039
       objectReference: {fileID: 0}
     - target: {fileID: 3823605869507852995, guid: 993d6444009d58d4f86b23ac37ac13f4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3202,18 +3592,6 @@ PrefabInstance:
     - target: {fileID: 4493464239925452921, guid: 993d6444009d58d4f86b23ac37ac13f4, type: 3}
       propertyPath: m_Name
       value: Violeta
-      objectReference: {fileID: 0}
-    - target: {fileID: 8266869942886993614, guid: 993d6444009d58d4f86b23ac37ac13f4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.009999871
-      objectReference: {fileID: 0}
-    - target: {fileID: 8266869942886993614, guid: 993d6444009d58d4f86b23ac37ac13f4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.0046999995
-      objectReference: {fileID: 0}
-    - target: {fileID: 8266869942886993614, guid: 993d6444009d58d4f86b23ac37ac13f4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.063099995
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 993d6444009d58d4f86b23ac37ac13f4, type: 3}
@@ -3354,16 +3732,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 8821183922100367556, guid: 3d0865475772074438e48d12b89afa73, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821183922100367556, guid: 3d0865475772074438e48d12b89afa73, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821183922100367556, guid: 3d0865475772074438e48d12b89afa73, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.80729085
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821183922100367556, guid: 3d0865475772074438e48d12b89afa73, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8821183922100367556, guid: 3d0865475772074438e48d12b89afa73, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -100
+      value: 278.0405
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821183922100367556, guid: 3d0865475772074438e48d12b89afa73, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1280
       objectReference: {fileID: 0}
     - target: {fileID: 8821183922100367556, guid: 3d0865475772074438e48d12b89afa73, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 50
+      value: 163
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821183922100367556, guid: 3d0865475772074438e48d12b89afa73, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8821183922100367557, guid: 3d0865475772074438e48d12b89afa73, type: 3}
       propertyPath: m_IsActive

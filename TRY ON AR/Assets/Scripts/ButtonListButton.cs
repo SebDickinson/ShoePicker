@@ -40,7 +40,9 @@ public void SetText(string textString)
         HideShoes();
         shoes[index].SetActive(true);
     }
-
+    /// <summary>
+    /// Hides all shoes
+    /// </summary>
     public void HideShoes()
     {
         foreach (var shoe in shoes)

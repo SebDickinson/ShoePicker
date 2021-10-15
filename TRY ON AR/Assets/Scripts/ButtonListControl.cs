@@ -31,7 +31,7 @@ public class ButtonListControl : MonoBehaviour
 
             button.SetActive(true);
 
-            button.GetComponent<ButtonListButton>().SetText("Shoe #" + i);
+            //button.GetComponent<ButtonListButton>().SetText("Shoe #" + i);
 
             button.transform.SetParent(buttonTemplate.transform.parent, false);
 
