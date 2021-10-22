@@ -23,7 +23,10 @@ public class ShoePicker : MonoBehaviour
             shoe.gameObject.SetActive(false);
         }
     }
-
+    public void ShowBodyShoe(int index)
+    {
+        ShoeManager.Instance.ShowShoe(index);
+    }
    public void ShowShoe(int index)
     {
         HideShoes();
