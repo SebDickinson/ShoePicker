@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19042.1237; Version 2009; 64bit' Language: 'es' Physical Memory: 16196 MB
+OS: 'Windows 10 Home Single Language; OS build 19042.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 16196 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,12 +15,12 @@ C:/Users/56998/Documents/GitHub/ShoePicker/TRY ON AR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55394
+53905
 Successfully changed project path to: C:/Users/56998/Documents/GitHub/ShoePicker/TRY ON AR
 C:/Users/56998/Documents/GitHub/ShoePicker/TRY ON AR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 60.95 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 3.20 ms.
+Refreshing native plugins compatible for Editor in 44.72 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 2.98 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/56998/Documents/GitHub/ShoePicker/TRY ON AR/Assets
@@ -36,25 +36,25 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003430 seconds.
+Registered in 0.002769 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 39.39 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 33.36 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.913 seconds
+- Completed reload, in  2.148 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009131 seconds.
+Registered in 0.007266 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 41.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.56 ms, found 2 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
@@ -83,630 +83,170 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.167 seconds
+- Completed reload, in  0.958 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 1605 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.8 MB.
-System memory in use after: 87.9 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 1608 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 2322.
-Total: 2.132300 ms (FindLiveObjects: 0.223600 ms CreateObjectMapping: 0.087100 ms MarkObjects: 1.705100 ms  DeleteObjects: 0.114800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/ShoeStore.unity
-  artifactKey: Guid(810324ba98766034d857c3b7179e860c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShoeStore.unity using Guid(810324ba98766034d857c3b7179e860c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d3507e2adc4819844d8e588a1bebaa') in 0.016008 seconds
-  Import took 0.019918 seconds .
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 2325.
+Total: 1.634000 ms (FindLiveObjects: 0.158800 ms CreateObjectMapping: 0.055700 ms MarkObjects: 1.335700 ms  DeleteObjects: 0.083200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.728579 seconds.
-  path: Assets/Project.unity
-  artifactKey: Guid(e82ec7e1500cb074eb437b3523012a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Project.unity using Guid(e82ec7e1500cb074eb437b3523012a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdde612655fa0e9c32b6b479d7c66f8') in 0.004532 seconds
-  Import took 0.008211 seconds .
+  path: Assets/Prefabs/Shoe Pairs
+  artifactKey: Guid(5d27e16a888135b4c9bade3a2baa3b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shoe Pairs using Guid(5d27e16a888135b4c9bade3a2baa3b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26344e500156832d7d88226e4e8f9175') in 0.004389 seconds
+  Import took 0.006537 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.909544 seconds.
-  path: Assets/Scenes/ShoePickerVuforia.unity
-  artifactKey: Guid(e82ec7e1500cb074eb437b3523012a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShoePickerVuforia.unity using Guid(e82ec7e1500cb074eb437b3523012a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6137fdb764a3e06b253ed90e22d5e8a') in 0.004354 seconds
-  Import took 0.007504 seconds .
+  Time since last request: 36.796506 seconds.
+  path: Assets/Prefabs/Shoe Individuals
+  artifactKey: Guid(857270dc89fa22341b3f561602aded6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shoe Individuals using Guid(857270dc89fa22341b3f561602aded6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c10603247d1462dd976f0dcf0a9b8fa') in 0.002294 seconds
+  Import took 0.004775 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.876354 seconds.
-  path: Assets/Scenes/ShoePickerBodyTracking.unity
-  artifactKey: Guid(867fec873689a0c44a1262011fe8851d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShoePickerBodyTracking.unity using Guid(867fec873689a0c44a1262011fe8851d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f91de14210890bba6e6c1f612849e9a') in 0.004845 seconds
-  Import took 0.010616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 279.022092 seconds.
-  path: Assets/Scripts/HumanBodyTracker.cs
-  artifactKey: Guid(4d1978cdb611d50418e69d424c4755b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/HumanBodyTracker.cs using Guid(4d1978cdb611d50418e69d424c4755b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5d6cddcf44a8964ff58f8f30408eb3') in 0.043544 seconds
-  Import took 0.051819 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016217 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.490 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 1585 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.3 MB.
-System memory in use after: 87.4 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2327.
-Total: 1.679000 ms (FindLiveObjects: 0.172700 ms CreateObjectMapping: 0.059400 ms MarkObjects: 1.391600 ms  DeleteObjects: 0.053800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012799 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.30 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.216 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 1585 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.3 MB.
-System memory in use after: 87.4 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2331.
-Total: 3.111400 ms (FindLiveObjects: 0.422700 ms CreateObjectMapping: 0.187100 ms MarkObjects: 2.414200 ms  DeleteObjects: 0.085600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 24.237938 seconds.
-  path: Assets/Scripts/HumanBodyTracker.cs
-  artifactKey: Guid(4d1978cdb611d50418e69d424c4755b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/HumanBodyTracker.cs using Guid(4d1978cdb611d50418e69d424c4755b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b14b8c1725e0f7d5ac4daffe8a7ec5') in 0.005290 seconds
-  Import took 0.008402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.089441 seconds.
-  path: Assets/Prefabs/Casual_Blender.prefab
-  artifactKey: Guid(04230e6fd9e037e47b09f0a3855deb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Casual_Blender.prefab using Guid(04230e6fd9e037e47b09f0a3855deb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205dc0bd7febeb60f7f478486b3a9fde') in 0.457587 seconds
-  Import took 0.462677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Prefabs/Reebok_Blender.prefab
-  artifactKey: Guid(5a445d1e63b6fad41aa6451855c0e389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Reebok_Blender.prefab using Guid(5a445d1e63b6fad41aa6451855c0e389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d8af665ac4e1796191a41f3d1fef4c') in 0.252530 seconds
-  Import took 0.256055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Prefabs/FixationRayPrefab.prefab
-  artifactKey: Guid(8339cb70cc6014347bd14cfea9e60601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FixationRayPrefab.prefab using Guid(8339cb70cc6014347bd14cfea9e60601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29b5cc939d0ff91a183d6c2b963e35e') in 0.013612 seconds
-  Import took 0.017043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Prefabs/FixationReticle.prefab
-  artifactKey: Guid(a14db57d4a388438285ebba933990962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FixationReticle.prefab using Guid(a14db57d4a388438285ebba933990962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1737e46fc3985c9518b040d067cc3435') in 0.030859 seconds
-  Import took 0.033996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Prefabs/Vans_Shoe_SF.prefab
-  artifactKey: Guid(39f9b08f912f875489be3fbd6ee844c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Vans_Shoe_SF.prefab using Guid(39f9b08f912f875489be3fbd6ee844c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5414f29d8f815f3132f613168462439') in 0.085649 seconds
-  Import took 0.089330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Prefabs/Cipela_Blender.prefab
-  artifactKey: Guid(33ac1110ac4fb2f4f8cad7d9983e081b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cipela_Blender.prefab using Guid(33ac1110ac4fb2f4f8cad7d9983e081b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195c00230b3db3a10e1bb5ced6817b38') in 0.192129 seconds
-  Import took 0.205242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000434 seconds.
-  path: Assets/Prefabs/Nike_Blender.prefab
-  artifactKey: Guid(36797fdc9e58e124f85517e08d5cf89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Nike_Blender.prefab using Guid(36797fdc9e58e124f85517e08d5cf89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61c802f9d308099ee4ff17549da09a2') in 0.083407 seconds
-  Import took 0.087793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Prefabs/Violeta.prefab
-  artifactKey: Guid(993d6444009d58d4f86b23ac37ac13f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Violeta.prefab using Guid(993d6444009d58d4f86b23ac37ac13f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2774d7e09995149c6b1a8e1f88033e7d') in 0.078277 seconds
-  Import took 0.082395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.747713 seconds.
-  path: Assets/Prefabs/robot
-  artifactKey: Guid(cca685f5563f44fb594bb061d390f30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot using Guid(cca685f5563f44fb594bb061d390f30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9d0c5b4ff372e3d0dab242f715a796') in 0.005054 seconds
-  Import took 0.009282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.114999 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1001_ao.png
-  artifactKey: Guid(7fcb38a0e4502490384b23d50460bcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1001_ao.png using Guid(7fcb38a0e4502490384b23d50460bcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f67001cc8ff8343b4302868d569d55') in 0.085484 seconds
-  Import took 0.089075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
+  Time since last request: 40.466387 seconds.
   path: Assets/Prefabs/robot/ControlledRobot.prefab
   artifactKey: Guid(d93d5415c51fa49aba66e61ec7b78b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/ControlledRobot.prefab using Guid(d93d5415c51fa49aba66e61ec7b78b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e4b679babbc7b422f533ea695c1f1f') in 1.114539 seconds
-  Import took 1.118226 seconds .
+Start importing Assets/Prefabs/robot/ControlledRobot.prefab using Guid(d93d5415c51fa49aba66e61ec7b78b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff813c1f80feaf0754172e4605b6801') in 0.882489 seconds
+  Import took 0.893563 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1001_m.png
-  artifactKey: Guid(61710e9a6b16e432cb25347bb8453b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1001_m.png using Guid(61710e9a6b16e432cb25347bb8453b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a088b130e0c2cdd429e8060ae86cef25') in 0.077790 seconds
-  Import took 0.081553 seconds .
+  Time since last request: 40.583590 seconds.
+  path: Assets/Scenes/ShoePickerBodyTracking.unity
+  artifactKey: Guid(867fec873689a0c44a1262011fe8851d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ShoePickerBodyTracking.unity using Guid(867fec873689a0c44a1262011fe8851d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba78ae817869683ae184ae4a9459a47d') in 0.016953 seconds
+  Import took 0.019898 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1001_r.png
-  artifactKey: Guid(c040e7f82b2e249248716cd5eaf039cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1001_r.png using Guid(c040e7f82b2e249248716cd5eaf039cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1141ce66c047aea321b829486e96d8c2') in 0.074876 seconds
-  Import took 0.081314 seconds .
+  Time since last request: 11.399243 seconds.
+  path: Assets/Scenes/ShoePickerVuforia.unity
+  artifactKey: Guid(e82ec7e1500cb074eb437b3523012a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ShoePickerVuforia.unity using Guid(e82ec7e1500cb074eb437b3523012a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448343c671ab3cd2623fe484225a486b') in 0.003166 seconds
+  Import took 0.006546 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1003_r.png
-  artifactKey: Guid(e1b7d3e9f2f664e8098a23bcc5c2f5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1003_r.png using Guid(e1b7d3e9f2f664e8098a23bcc5c2f5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fd4a417efcc34feba15db7a0c80bfc') in 0.026409 seconds
-  Import took 0.030552 seconds .
+  Time since last request: 0.009176 seconds.
+  path: Assets/Scenes/ShoePickerVuforia.unity
+  artifactKey: Guid(e82ec7e1500cb074eb437b3523012a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ShoePickerVuforia.unity using Guid(e82ec7e1500cb074eb437b3523012a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448343c671ab3cd2623fe484225a486b') in 0.002391 seconds
+  Import took 0.004900 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1003_m.metalicRough.png
-  artifactKey: Guid(0de5cd8c3f1f74e2b98289fa93c66c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1003_m.metalicRough.png using Guid(0de5cd8c3f1f74e2b98289fa93c66c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3972af4da038f462b1e3323fdd2a8c7') in 0.036472 seconds
-  Import took 0.041262 seconds .
+  Time since last request: 147.314582 seconds.
+  path: Assets/Prefabs/Shoe Individuals/Reebok Left.prefab
+  artifactKey: Guid(66e74f730723b4a4e95d14fbe6344956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shoe Individuals/Reebok Left.prefab using Guid(66e74f730723b4a4e95d14fbe6344956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23d445f484368965dbf4ee5cfb0327a') in 0.100637 seconds
+  Import took 0.103225 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1003_n.png
-  artifactKey: Guid(d05c16e3d426d40c2adb9375c8ca6a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1003_n.png using Guid(d05c16e3d426d40c2adb9375c8ca6a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7089fc4ded91751b44b09e0ea618cc') in 0.037911 seconds
-  Import took 0.042848 seconds .
+  Time since last request: 4.046796 seconds.
+  path: Assets/Prefabs/Shoe Individuals/Reebok Right.prefab
+  artifactKey: Guid(d4fa2c1b509e97b4ea23f95fd8910e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shoe Individuals/Reebok Right.prefab using Guid(d4fa2c1b509e97b4ea23f95fd8910e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e453e3df3797034148b60f656f1fded') in 0.078308 seconds
+  Import took 0.081216 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1001_bc.png
-  artifactKey: Guid(11105031643464a7fbacc252c36d4993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1001_bc.png using Guid(11105031643464a7fbacc252c36d4993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75023d54cd68375d1377f9e19d257db0') in 0.094194 seconds
-  Import took 0.101206 seconds .
+  Time since last request: 57.018117 seconds.
+  path: Assets/Prefabs/Shoe Individuals/Vans Left.prefab
+  artifactKey: Guid(da330874b1f5ec742b970de31f0aaee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shoe Individuals/Vans Left.prefab using Guid(da330874b1f5ec742b970de31f0aaee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d896995900f216bbf89b23d89b1521') in 0.074270 seconds
+  Import took 0.076959 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1003_bc.png
-  artifactKey: Guid(3a5e9f4cab52a447390376a8fec98989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1003_bc.png using Guid(3a5e9f4cab52a447390376a8fec98989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f901bedd4e5e8375902677b0e8e4494') in 0.040729 seconds
-  Import took 0.046520 seconds .
+  Time since last request: 0.001665 seconds.
+  path: Assets/Prefabs/Shoe Individuals/Vans Left.prefab
+  artifactKey: Guid(da330874b1f5ec742b970de31f0aaee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shoe Individuals/Vans Left.prefab using Guid(da330874b1f5ec742b970de31f0aaee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d896995900f216bbf89b23d89b1521') in 0.061893 seconds
+  Import took 0.064705 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000855 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1002_m.metalicRough.png
-  artifactKey: Guid(82af1fbcd32954d1f9eae4553f58ebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1002_m.metalicRough.png using Guid(82af1fbcd32954d1f9eae4553f58ebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5bc655d0779530a2c42e4a9fdf8a57') in 0.037537 seconds
-  Import took 0.044817 seconds .
+  Time since last request: 3.564907 seconds.
+  path: Assets/Prefabs/Shoe Individuals/Vans Right.prefab
+  artifactKey: Guid(fd106f07013baf14c90d52d0f6f15d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shoe Individuals/Vans Right.prefab using Guid(fd106f07013baf14c90d52d0f6f15d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e88bfd6efabc23282cf4a53e9c390d') in 0.074529 seconds
+  Import took 0.077296 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1002_bc.png
-  artifactKey: Guid(17f16e2d29e6a45078b187e012f52d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1002_bc.png using Guid(17f16e2d29e6a45078b187e012f52d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af81fc03924a4f2f9c13635682c1b92b') in 0.031139 seconds
-  Import took 0.036744 seconds .
+  Time since last request: 0.004671 seconds.
+  path: Assets/Prefabs/Shoe Individuals/Vans Right.prefab
+  artifactKey: Guid(fd106f07013baf14c90d52d0f6f15d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shoe Individuals/Vans Right.prefab using Guid(fd106f07013baf14c90d52d0f6f15d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e88bfd6efabc23282cf4a53e9c390d') in 0.061227 seconds
+  Import took 0.063785 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000855 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1002_m.png
-  artifactKey: Guid(a9499c002460c452db0f53b015d0603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1002_m.png using Guid(a9499c002460c452db0f53b015d0603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c190ba920fc028f0db3b1c1c97cf85') in 0.031126 seconds
-  Import took 0.037063 seconds .
+  Time since last request: 55.840691 seconds.
+  path: Assets/Prefabs/Shoe Individuals/Violeta Left.prefab
+  artifactKey: Guid(3f11643c54fdf4b44b208e742cc43550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shoe Individuals/Violeta Left.prefab using Guid(3f11643c54fdf4b44b208e742cc43550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33307ff07d3f4f13eeae72dac7d6bd70') in 0.078094 seconds
+  Import took 0.081300 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1001_n.png
-  artifactKey: Guid(1d285287bfb564ff3a963271f88e37a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1001_n.png using Guid(1d285287bfb564ff3a963271f88e37a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0e50d185e14fbfe6a4cb0dd082f160') in 0.074133 seconds
-  Import took 0.079515 seconds .
+  Time since last request: 3.010734 seconds.
+  path: Assets/Prefabs/Shoe Individuals/Violeta Right.prefab
+  artifactKey: Guid(600b7722ad975f949a566b2ace2e4e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shoe Individuals/Violeta Right.prefab using Guid(600b7722ad975f949a566b2ace2e4e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f4856363321fbf24692bece2b1ea5a') in 0.070666 seconds
+  Import took 0.073289 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1003_m.png
-  artifactKey: Guid(ae6842f0959154e04972ccbe29c92d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1003_m.png using Guid(ae6842f0959154e04972ccbe29c92d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c72f5b2d837bd01fa52bec92b74c955') in 0.026380 seconds
-  Import took 0.030488 seconds .
+  Time since last request: 17.916236 seconds.
+  path: Assets/Resources/DOTweenSettings.asset
+  artifactKey: Guid(82cd458c8e42fcd47ae2f02676d4f9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DOTweenSettings.asset using Guid(82cd458c8e42fcd47ae2f02676d4f9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd7f97d442d95e5d60016c7d7f62481') in 0.005819 seconds
+  Import took 0.008339 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000641 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1002_r.png
-  artifactKey: Guid(607fefe4fef0a4e7fa000f3ca6754edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1002_r.png using Guid(607fefe4fef0a4e7fa000f3ca6754edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765a96b129ee8921e09bfd3c3db9e0a6') in 0.028039 seconds
-  Import took 0.032724 seconds .
+  Time since last request: 58.707927 seconds.
+  path: Assets/Prefabs/Shoe Individuals/Casual Left.prefab
+  artifactKey: Guid(da09f64ac1f79c6479975000fd7b100f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shoe Individuals/Casual Left.prefab using Guid(da09f64ac1f79c6479975000fd7b100f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904af1660dd1e03ef0a76c79a873bd85') in 0.080249 seconds
+  Import took 0.084801 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1001_m.metalicRough.png
-  artifactKey: Guid(a5a47ea42ebeb4627b6eade898dc33cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1001_m.metalicRough.png using Guid(a5a47ea42ebeb4627b6eade898dc33cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e4d64bfd8e81071e274d659803f216') in 0.073821 seconds
-  Import took 0.078902 seconds .
+  Time since last request: 15.335301 seconds.
+  path: Assets/Prefabs/Shoe Individuals/Casual Right.prefab
+  artifactKey: Guid(0bcaaa8432e21ac4e8b8c37c79c8506e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shoe Individuals/Casual Right.prefab using Guid(0bcaaa8432e21ac4e8b8c37c79c8506e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22c638c34b4301b05fdadda2ab0f8fe') in 0.092225 seconds
+  Import took 0.096694 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1002_ao.png
-  artifactKey: Guid(dc52bc377ea9448c7a837221b46faea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1002_ao.png using Guid(dc52bc377ea9448c7a837221b46faea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4601e0d7b0814bd06ce119610a463b2') in 0.029075 seconds
-  Import took 0.032995 seconds .
+  Time since last request: 7.500645 seconds.
+  path: Assets/Prefabs/Shoe Individuals/Cipela Left.prefab
+  artifactKey: Guid(442ae632ee60298498d574b1cad4e154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shoe Individuals/Cipela Left.prefab using Guid(442ae632ee60298498d574b1cad4e154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d1d9e957135d8211daa84f48c96c40') in 0.129845 seconds
+  Import took 0.135817 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1003_ao.png
-  artifactKey: Guid(1463c32a832954a5f88735337d734e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1003_ao.png using Guid(1463c32a832954a5f88735337d734e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601facd3e7c1529024d3f492ef11f348') in 0.031420 seconds
-  Import took 0.034796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Prefabs/robot/biped_robot_ace_1002_n.png
-  artifactKey: Guid(4d5a4037f642f41d58e8cb96feeef05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/robot/biped_robot_ace_1002_n.png using Guid(4d5a4037f642f41d58e8cb96feeef05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccd78083bde3190b076790a0d413e8c') in 0.031917 seconds
-  Import took 0.036039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 418.367857 seconds.
-  path: Assets/Scripts/TestBodyAnchorScale.cs
-  artifactKey: Guid(3076b033c7e4ee746a6ed4b1be571c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TestBodyAnchorScale.cs using Guid(3076b033c7e4ee746a6ed4b1be571c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ec01bb2b081fe4d1d2ae65505b3d23') in 0.004246 seconds
-  Import took 0.010238 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.027858 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.32 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.503 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 1586 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.9 MB.
-System memory in use after: 105.0 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2383.
-Total: 1.864700 ms (FindLiveObjects: 0.189100 ms CreateObjectMapping: 0.070000 ms MarkObjects: 1.544900 ms  DeleteObjects: 0.059400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009581 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.32 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.187 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 1586 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.9 MB.
-System memory in use after: 105.0 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2387.
-Total: 6.818000 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.090600 ms MarkObjects: 6.430400 ms  DeleteObjects: 0.105900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 31.684145 seconds.
-  path: Assets/Scripts/TestBodyAnchorScale.cs
-  artifactKey: Guid(3076b033c7e4ee746a6ed4b1be571c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TestBodyAnchorScale.cs using Guid(3076b033c7e4ee746a6ed4b1be571c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9bc8052326c627909ee0ee8428e085') in 0.005733 seconds
-  Import took 0.009487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 718.221550 seconds.
-  path: Assets/Prefabs/TheBoss
-  artifactKey: Guid(919d99f2b12181845b1ca06b54b909be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TheBoss using Guid(919d99f2b12181845b1ca06b54b909be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330b0cf651202fbb595e59752be0d67d') in 0.010119 seconds
-  Import took 0.017535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.812890 seconds.
-  path: Assets/Prefabs/TheBoss/theboss@Talking.fbx
-  artifactKey: Guid(01453832ef8421a438a86fdbf253ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TheBoss/theboss@Talking.fbx using Guid(01453832ef8421a438a86fdbf253ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5097154ed7abe8f3d2f3b7059005aef') in 0.231561 seconds
-  Import took 0.236182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.818916 seconds.
-  path: Assets/Prefabs/TheBoss/Cigar_Mat.mat
-  artifactKey: Guid(a51e0bd81dc6ac9488620c7b22e24f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TheBoss/Cigar_Mat.mat using Guid(a51e0bd81dc6ac9488620c7b22e24f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9275db129440e24d1883f12c5f6c70a') in 0.117000 seconds
-  Import took 0.125712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001280 seconds.
-  path: Assets/Prefabs/TheBoss/theboss@Talking.fbx
-  artifactKey: Guid(01453832ef8421a438a86fdbf253ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TheBoss/theboss@Talking.fbx using Guid(01453832ef8421a438a86fdbf253ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24bf4d9325ce62608805df480424096') in 0.187242 seconds
-  Import took 0.209021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/Prefabs/TheBoss/Clothes_MAT.mat
-  artifactKey: Guid(576d62f00ee7e514cb4bb6d243fdb5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TheBoss/Clothes_MAT.mat using Guid(576d62f00ee7e514cb4bb6d243fdb5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a529227ef738f85ba650af275c2282b') in 0.014726 seconds
-  Import took 0.021657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001154 seconds.
-  path: Assets/Prefabs/TheBoss/Eyes_MAT.mat
-  artifactKey: Guid(f3d1b1ad730fae4459ebc1c3e8c2a2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TheBoss/Eyes_MAT.mat using Guid(f3d1b1ad730fae4459ebc1c3e8c2a2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958e2808b0913b65d57dde9a7ea79d45') in 0.027504 seconds
-  Import took 0.038556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001066 seconds.
-  path: Assets/Prefabs/TheBoss/Skin_MAT.mat
-  artifactKey: Guid(873f92c01f69afd4a842a1f059e78d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TheBoss/Skin_MAT.mat using Guid(873f92c01f69afd4a842a1f059e78d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712e2acc26c67ee4ac440f905e1cad5b') in 0.031791 seconds
-  Import took 0.041031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.750832 seconds.
-  path: Assets/Prefabs/TheBoss/Boss_diffuse.png
-  artifactKey: Guid(8e7da0e87de9ac142a377ce9ee45487c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TheBoss/Boss_diffuse.png using Guid(8e7da0e87de9ac142a377ce9ee45487c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66937b22cd8dba486c793b84749d6fc9') in 0.059727 seconds
-  Import took 0.069093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002510 seconds.
-  path: Assets/Prefabs/TheBoss/theboss@Talking.fbx
-  artifactKey: Guid(01453832ef8421a438a86fdbf253ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TheBoss/theboss@Talking.fbx using Guid(01453832ef8421a438a86fdbf253ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ab2b43356c072f0f6ad293899f24f2') in 0.255617 seconds
-  Import took 0.265677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Prefabs/TheBoss/Boss_specular.png
-  artifactKey: Guid(9ea5b5ed1cc64694c85424beef62a097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TheBoss/Boss_specular.png using Guid(9ea5b5ed1cc64694c85424beef62a097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6391aa2b11df9c1f13545567e2eeea1f') in 0.044548 seconds
-  Import took 0.050537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Prefabs/TheBoss/Boss_normal.png
-  artifactKey: Guid(0d6e1da918e687347adc7601a19b7949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TheBoss/Boss_normal.png using Guid(0d6e1da918e687347adc7601a19b7949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6a435c15273737983fd33f29e8bddb') in 0.047596 seconds
-  Import took 0.053695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 172.606461 seconds.
-  path: Assets/Prefabs/TheBoss/Cigar_Mat.mat
-  artifactKey: Guid(a51e0bd81dc6ac9488620c7b22e24f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TheBoss/Cigar_Mat.mat using Guid(a51e0bd81dc6ac9488620c7b22e24f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdfba6130c32095d44c8ee4075a2f3d') in 0.058167 seconds
-  Import took 0.068947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/Prefabs/TheBoss/Clothes_MAT.mat
-  artifactKey: Guid(576d62f00ee7e514cb4bb6d243fdb5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TheBoss/Clothes_MAT.mat using Guid(576d62f00ee7e514cb4bb6d243fdb5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8eb5ef55d872874595df2d5eed37d15') in 0.056226 seconds
-  Import took 0.062316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Prefabs/TheBoss/Eyes_MAT.mat
-  artifactKey: Guid(f3d1b1ad730fae4459ebc1c3e8c2a2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TheBoss/Eyes_MAT.mat using Guid(f3d1b1ad730fae4459ebc1c3e8c2a2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce00c3e9c052bd1f21a2c464514b73c') in 0.061141 seconds
-  Import took 0.074361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/Prefabs/TheBoss/Skin_MAT.mat
-  artifactKey: Guid(873f92c01f69afd4a842a1f059e78d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TheBoss/Skin_MAT.mat using Guid(873f92c01f69afd4a842a1f059e78d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb72b2c0db38e17f23a439f2e9fae4e') in 0.067704 seconds
-  Import took 0.071319 seconds .
+  Time since last request: 5.676661 seconds.
+  path: Assets/Prefabs/Shoe Individuals/Cipela Right.prefab
+  artifactKey: Guid(7161992ab0d33684a888042451645e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shoe Individuals/Cipela Right.prefab using Guid(7161992ab0d33684a888042451645e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8208c81cc5af45cf64dda8acc332d1e8') in 0.095894 seconds
+  Import took 0.101921 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
